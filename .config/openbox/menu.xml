@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu xmlns="http://openbox.org/3.4/menu">
+
+<menu id="apps-editors-menu" label="Editors">
+
+  <item label="Geany">
+    <action name="Execute">
+      <command>geany</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+
+  <item label="Sublime">
+    <action name="Execute">
+      <command>subl</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+
+</menu>
+
+<menu id="apps-term-menu" label="Terminals">
+
+  <item label="Sakura">
+    <action name="Execute">
+      <command>sakura</command>
+    </action>
+  </item>
+
+</menu>
+
+<menu id="apps-net-menu" label="Internet">
+
+  <item label="Chrome">
+    <action name="Execute">
+      <command>google-chrome-stable</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+        <wmclass>chromium</wmclass>
+      </startupnotify>
+    </action>
+  </item>
+
+  <item label="Firefox">
+    <action name="Execute">
+      <command>firefox</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+        <wmclass>Firefox</wmclass>
+      </startupnotify>
+    </action>
+  </item>
+
+</menu>
+
+<menu id="apps-multimedia-menu" label="Multimedia">
+
+  <item label="VLC">
+    <action name="Execute">
+      <command>vlc</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+
+</menu>
+
+<menu id="apps-graphics-menu" label="Graphics">
+
+  <item label="Gimp">
+    <action name="Execute">
+      <command>gimp</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+
+  <item label="Dia Diagram Editor">
+    <action name="Execute">
+      <command>dia</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+
+  <item label="Inkscape">
+    <action name="Execute">
+      <command>inkscape</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+
+</menu>
+
+<menu id="system-menu" label="System">
+
+  <item label="Edit menu.xml">
+    <action name="Execute">
+      <command>geany ~/.config/openbox/menu.xml</command>
+    </action>
+  </item>
+
+  <item label="Edit openbox rc.xml">
+    <action name="Execute">
+      <command>geany ~/.config/openbox/rc.xml</command>
+    </action>
+  </item>
+
+  <item label="Edit .xinitrc">
+    <action name="Execute">
+      <command>geany ~/.xinitrc</command>
+    </action>
+  </item>
+
+  <item label="Openbox Configuration Manager">
+    <action name="Execute">
+      <command>obconf</command>
+      <startupnotify><enabled>yes</enabled></startupnotify>
+    </action>
+  </item>
+
+  <item label="Tint2 Conf">
+    <action name="Execute">
+      <command>tint2conf</command>
+    </action>
+  </item>
+
+  <item label="Reconfigure Openbox">
+    <action name="Reconfigure" />
+  </item>
+
+</menu>
+
+<menu id="root-menu" label="Openbox 3">
+
+  <item label="Sakura">
+    <action name="Execute">
+      <command>sakura</command>
+    </action>
+  </item>
+
+  <item label="Chrome">
+    <action name="Execute">
+      <command>google-chrome-stable</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+        <wmclass>chromium</wmclass>
+      </startupnotify>
+    </action>
+  </item>
+
+  <item label="Thunar">
+    <action name="Execute">
+      <command>Thunar</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+
+  <item label="Sublime">
+    <action name="Execute">
+      <command>subl</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+
+  <separator label="Applications" />
+
+  <menu id="apps-editors-menu"/>
+  <menu id="apps-graphics-menu"/>
+  <menu id="apps-net-menu"/>
+  <menu id="apps-multimedia-menu"/>
+  <menu id="apps-term-menu"/>
+
+  <separator label="System" />
+
+  <menu id="system-menu"/>
+
+  <separator />
+
+  <item label="Log Out">
+    <action name="Exit">
+      <prompt>yes</prompt>
+    </action>
+  </item>
+
+</menu>
+
+</openbox_menu>

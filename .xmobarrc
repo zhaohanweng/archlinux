@@ -1,0 +1,53 @@
+Config {
+-- font = "-misc-fixed-*-*-*-*-10-*-*-*-*-*-*-*"
+font = "xft:glisp:size=10:antialias=true"
+, bgColor = "black"
+, fgColor = "grey"
+, alpha = 190
+, position = Static { xpos = 1920, ypos = 0, width = 1920, height = 15 }
+, border = NoBorder
+, borderColor = "#ffffff"
+, allDesktops = True
+, hideOnStart = False
+, lowerOnStart = True
+, persistent = False
+, overrideRedirect = True
+, commands = [
+Run Weather "CYYZ" [
+"-t", "<station>: <tempC>C",
+"-L", "18",
+"-H", "25",
+"--normal", "green",
+"--high", "red",
+"--low", "lightblue"
+] 36000
+, Run Network "enp2s0" [
+"-t", "<rx>KB/<tx>KB",
+"-L", "0",
+"-H", "32",
+"--normal", "green",
+"--high", "red"
+] 10
+, Run MultiCpu [
+"--template", "CPU [<total0>|<total1>|<total2>|<total3>|<total4>|<total5>|<total6>|<total7>]%"
+, "--Low", "50" -- units: %
+, "--High", "85" -- units: %
+, "--low", "green"
+, "--normal", "orange"
+, "--high", "red"
+] 10
+, Run Memory ["-t","Mem: <used>M - <usedratio>%"] 10
+, Run Com "uname" ["-s","-r"] "" 36000
+, Run Date "%a %b %_d %Y %H:%M:%S" "date" 10
+, Run TopProc ["-t", "<name1>-<cpu1>%"] 10
+, Run TopMem ["-t", "<name1>-<mem1>"] 10
+, Run Uptime [] 600
+, Run DiskU
+[("sda1", "<used>/<size>")]
+["-L", "20", "-H", "50", "-m", "1", "-p", "3"] 100
+]
+, sepChar = "%"
+, alignSep = "}{"
+, template =
+"| %uptime% | %multicpu% | %memory% | %enp2s0% | %disku% | %top% }{ | %topmem% | <fc=#ee9a00>%date%</fc> | %CYYZ% | %uname% |"
+}
