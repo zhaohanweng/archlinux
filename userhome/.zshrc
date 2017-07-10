@@ -84,4 +84,4 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-eval $(keychain --eval --agents ssh id_rsa)
+eval $(keychain --eval --quiet id_rsa)
