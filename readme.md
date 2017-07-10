@@ -1,38 +1,67 @@
-#### Install Essentials
-- ack
-- adobe-source-han-sans-cn-fonts
-- alsa-utils
+#### Essentials Packages
+- xorg-server
+- compton
+- xorg-xinit
+- xdg-utils
 - aura-bin
-- autoconf
-- automake
-- aws-cli
+
+##### Fonts
+ttf-bitstream-vera 1.10-10
+ttf-croscore 20161003-1
+ttf-dejavu 2.37-1
+ttf-droid 20121017-4
+ttf-freefont 20120503-4
+ttf-liberation 2.00.1-6
+ttf-linux-libertine 5.3.0-3
+ttf-ubuntu-font-family 0.83-1
+adobe-source-han-sans-cn-fonts
+
+##### Chinese input
+- fcitx-libpinyin
+- fcitx-im
+- fcitx-configtool
+
+  ```
+  fcitx
+  fcitx-configtool
+  ```
+
+##### Sound
+ - alsa-utils
+
+   ```
+   alsamixer
+   ```
+
+- vim
+
+  ```
+  sudo ln -s `which vim` /usr/local/bin/vi
+  ```
+
+- geany
+- dmenu
+- google-chrome
+- ack
+- gnu-netcat
+- konsole
+- keychain
+
 - bdf-unifont
 - bind-tools
 - bison
-- cabal-install
-- compton
-- dmenu
+
 - docker
 - evhz-git
-- fakeroot
-- fcitx-configtool
-- fcitx-gtk2
-- fcitx-gtk3
-- fcitx-libpinyin
+
 - firefox
 - flex
-- geany
-- ghc
-- gnu-netcat
-- go
-- google-chrome
+
 - grub
 - gtk-engine-murrine
 - gvim
 - iputils
 - jfsutils
-- keychain
-- konsole
 - lib32-libstdc++5
 - lib32-zlib
 - licenses
