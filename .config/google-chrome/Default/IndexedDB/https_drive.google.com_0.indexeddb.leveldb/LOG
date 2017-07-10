@@ -1,0 +1,28 @@
+2017/07/10-12:19:15.913 5324 Reusing MANIFEST /home/zhaohan/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2017/07/10-12:19:40.411 6207 Level-0 table #5: started
+2017/07/10-12:19:40.422 6207 Level-0 table #5: 477457 bytes OK
+2017/07/10-12:19:40.425 6207 Delete type=0 #3
+2017/07/10-12:19:44.963 6207 Level-0 table #7: started
+2017/07/10-12:19:44.977 6207 Level-0 table #7: 864363 bytes OK
+2017/07/10-12:19:44.983 6207 Delete type=0 #4
+2017/07/10-12:19:45.068 6207 Level-0 table #9: started
+2017/07/10-12:19:45.076 6207 Level-0 table #9: 477906 bytes OK
+2017/07/10-12:19:45.078 6207 Delete type=0 #6
+2017/07/10-12:20:18.236 6207 Level-0 table #11: started
+2017/07/10-12:20:18.260 6207 Level-0 table #11: 889782 bytes OK
+2017/07/10-12:20:18.263 6207 Delete type=0 #8
+2017/07/10-12:20:50.155 6207 Level-0 table #13: started
+2017/07/10-12:20:50.171 6207 Level-0 table #13: 477032 bytes OK
+2017/07/10-12:20:50.173 6207 Delete type=0 #10
+2017/07/10-12:21:27.742 6207 Level-0 table #15: started
+2017/07/10-12:21:27.755 6207 Level-0 table #15: 864986 bytes OK
+2017/07/10-12:21:27.757 6207 Delete type=0 #12
+2017/07/10-12:21:27.758 6207 Compacting 4@0 + 1@1 files
+2017/07/10-12:21:27.771 6207 Generated table #16@0: 13 keys, 455667 bytes
+2017/07/10-12:21:27.771 6207 Compacted 4@0 + 1@1 files => 455667 bytes
+2017/07/10-12:21:27.773 6207 compacted to: files[ 0 1 1 0 0 0 0 ]
+2017/07/10-12:21:27.773 6207 Delete type=2 #7
+2017/07/10-12:21:27.773 6207 Delete type=2 #15
+2017/07/10-12:21:27.773 6207 Delete type=2 #9
+2017/07/10-12:21:27.773 6207 Delete type=2 #13
+2017/07/10-12:21:27.773 6207 Delete type=2 #11

@@ -61,6 +61,7 @@
 ; (gtk_accel_path "<Actions>/ThunarStandardView/delete" "")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/sort-ascending" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/empty-trash" "")
+; (gtk_accel_path "<Actions>/ThunarBookmarks/0c92246b665de0e4e30eff18636b67a7" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/view-location-selector-menu" "")
 ; (gtk_accel_path "<Actions>/ThunarLauncher/open-in-new-window" "<Primary><Shift>o")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/arrange-items-menu" "")
