@@ -45,6 +45,9 @@ adobe-source-han-sans-cn-fonts
   ```
 
 ##### Other packages
+- thunar
+- thunar-volman
+- xarchinve
 - zsh
 - tig
 - ristretto
@@ -59,7 +62,6 @@ adobe-source-han-sans-cn-fonts
 - zsh-completions
 - gnu-netcat
 - konsole
-- unzip
 - keychain
 - bind-tools (dig)
 - openssh
