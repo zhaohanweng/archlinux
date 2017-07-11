@@ -46,6 +46,7 @@ adobe-source-han-sans-cn-fonts
 
 ##### Other packages
 - thunar
+- gvfs
 - thunar-volman
 - xarchinve
 - zsh
