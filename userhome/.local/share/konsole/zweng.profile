@@ -9,8 +9,12 @@ Parent=FALLBACK/
 [Interaction Options]
 AutoCopySelectedText=true
 MiddleClickPasteMode=1
+MouseWheelZoomEnabled=false
 OpenLinksByDirectClickEnabled=false
 UnderlineFilesEnabled=true
 
 [Scrolling]
 HistoryMode=2
+
+[Terminal Features]
+UrlHintsModifiers=67108864
